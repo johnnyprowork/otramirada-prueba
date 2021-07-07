@@ -1,0 +1,225 @@
+	
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+	*{
+	padding:0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+
+		}
+
+	ul{
+
+		padding-inline-start: 0px;
+	}
+
+	h1{
+
+		color:#D50780;
+	}
+
+	.body{
+
+		margin:0px;
+		 overflow-x:hidden;
+		
+	}
+
+
+	/*----------------------------------------------- Menu styles */
+
+	
+	.nav {
+	  text-align:center;
+	  width: 100%;
+	  height: 100%;
+	  justify-content: center;
+	  align-items: center;
+	  display: flex;
+	}
+
+	.nav___ul___left{
+		display: inline-block;
+		list-style-type: none;
+		margin-top: 0px;
+
+		
+
+	}
+
+	.nav___ul___right{
+		display: inline-block;
+		list-style-type: none;
+		margin-top: 0px;	
+		
+	}
+
+	.nav___a___img{
+		display: inline-block;
+		padding-left:6% ;
+		padding-right:6%;
+		padding-top: 20px;
+		width: 150px;
+		height: 100%;
+		
+	}
+
+
+	/*------------------------------ Hover Animation text */
+	.nav___li{
+		
+		display: inline-block;
+		margin-top: 15px;
+		margin-right: 30px;
+		margin-bottom: 15px;
+
+		font-family: 'Poppins', sans-serif;
+		font-size: 24px;
+		font-weight:500 ;
+	}
+
+	.nav___li:hover > a {
+	color: #FCEA21;
+	
+	}
+
+	.nav___li:hover {
+	color: #FCEA21;
+	}
+
+
+	.nav___li a{
+	color:#D50780;
+	text-decoration: none;
+	text-align: center;
+
+	}
+
+	/*------------------------------ Hover Animation text */
+
+
+	/*----------------------------------------------- Menu styles */
+
+
+
+
+	/*----------------------------------------------- Contact styles */
+
+
+
+	.div___container{
+		width: 70%;
+		height: 100%;
+	 	text-align: center;
+	 	margin-left: 13%;
+	}
+
+	.div___container____contact{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		background-color: #FFFFFF;
+		box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19)
+
+	}
+
+	.div___container____contact____box{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	width: 1000px;
+
+
+	}
+
+
+	.div___container____contact____box___right{
+	margin-top: 30px;
+	margin-bottom: 28px;
+	margin-right: 15px;
+
+
+	}
+
+	.div___textarea___mensaje{
+		width: 98%;
+		min-height: 150px;
+		font-size: 23px;
+		padding-top: 10px;
+		padding-left: 10px;
+		border-color: #F2F2F0;
+		border-style: solid;
+		background-color: #F9F9F9;
+
+
+		
+	}
+
+
+
+	.div___container____contact____box___left{
+	display: grid;
+	grid-template-columns: repeat(1,3fr);
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	height: 300px;
+	margin-right: 10px;
+	}
+
+	.div___container____contact____box___left___input{
+		margin-top: 10px;
+		width: 100%;
+		height: 50px;
+		border-color: #F2F2F0;
+		font-size: 23px;
+		border-style: solid;
+		background-color: #F9F9F9;
+		padding-left:10px;
+	}
+
+
+	.div___button___send{
+		width: 30%;
+		padding:10px;
+		margin-top: 10px;
+		font-size: 20px;
+		background-color: #D50780;
+		cursor: pointer;
+		outline: none;
+		border:none;
+		color:#FFFFFF;
+		float: right;
+
+	/*------------------------------ Hover Animation box and text in contact */
+	}
+
+	  .div___container____contact____box___left___input:hover {
+	 	background-color: #FFFFFF;
+	 	border-color: #D50780;
+	 }
+
+
+	 .div___textarea___mensaje:hover {
+	 	background-color: #FFFFFF;
+	 	border-color: #D50780;
+	 }
+
+	 .div___button___send:hover{
+	background-color: #FCEA21;
+	transition: 0.6s;
+	font-weight: bold;
+	color:#D50780;
+	transition-color: 0.6s;
+	 }
+	/*------------------------------ Hover Animation box and text in contact */
+
+
+
+	/*----------------------------------------------- Contact styles */
+

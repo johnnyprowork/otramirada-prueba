@@ -1,0 +1,58 @@
+
+.row{
+    width: 100%
+}
+
+
+.image__hand{
+width: 20%;
+z-index:  -1;
+position: absolute;
+object-fit: cover;
+margin-top: -30%;
+margin-left: -13%;
+}   
+
+
+.mod__margin{
+    padding: 0;
+}
+
+.mod__fullwidth{
+    margin:0;
+    padding:0;
+    margin-top: 4vh;
+}
+
+
+
+// modificacion de estilo hover en menu estatico
+a.obj___static{
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+.card-block1 {
+    background-color:#D50780;
+   
+}
+
+.card-title1{
+    font-family: 'Poppins';
+   font-size: 1em;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+
+.card-block2 {
+    background-color:#FCEA21;
+   
+}
+
+.card-title2{
+    font-family: 'Poppins';
+   font-size: 1em;
+    color: #000000;
+    font-style: italic;
+}
