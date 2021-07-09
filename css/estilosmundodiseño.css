@@ -948,6 +948,12 @@ padding-left: 10vw;
 	display: none;
 }
 @media screen and (max-width: 1920px){
+		.menu-wrapper{
+		display: none;
+	}
+	.logo__otramirada__hamburger{
+	display: none;
+	}
 	.banner__2__margin {
     margin-top: 13vh;
 	}
@@ -955,6 +961,12 @@ padding-left: 10vw;
 
 
 @media screen and (max-width: 1403px){
+		.menu-wrapper{
+		display: none;
+	}
+	.logo__otramirada__hamburger{
+	display: none;
+	}
 	.special__shape {
     position: absolute;
     width: 110%;
@@ -966,6 +978,12 @@ padding-left: 10vw;
 }
 
 @media screen and (max-width: 1366px){
+	.menu-wrapper{
+		display: none;
+	}
+	.logo__otramirada__hamburger{
+	display: none;
+	}
 	.container___mundoweb {
     background: #FCEA21;
     width: 50%;
