@@ -1386,6 +1386,17 @@ padding-left: 10vw;
     margin-left: 557px;
     margin-top: 35px;
 	}
+	.background__follow.active {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    padding: 20px 160px;
+    transform: rotate(270deg);
+    position: fixed;
+    left: -139px;
+    top: 891px;
+    transition: 0.3s;
+	}
 	.div___container___banner {
     width: 101%;
     position: absolute;
@@ -1421,7 +1432,7 @@ padding-left: 10vw;
 	}
 	.div___container___categories {
     display: flex;
-    margin-top: 341px;
+    margin-top: 191px;
 	}
 	.mundoweb__black {
     background: #211F20;
@@ -1737,7 +1748,20 @@ padding-left: 10vw;
     transition: 0.3s;
     box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 61%);
 	}
-
+.obj___static___follow2 {
+    transform: rotate(270deg);
+    text-orientation: upright;
+    position: fixed;
+    padding: 10px;
+    bottom: 174px;
+    font-size: 14px;
+    text-decoration: none;
+    visibility: hidden;
+    left: -20px;
+    transition: 0.3s;
+    opacity: 0.0;
+    color: #D50780;
+	}
 	.obj___static___follow3 {
     transform: rotate(270deg);
     text-orientation: upright;
