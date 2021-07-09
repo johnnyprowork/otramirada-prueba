@@ -1491,7 +1491,10 @@ padding-left: 10vw;
     color: #D50780;
     font-size: 17px;
 	}
-
+	.div___container___categories {
+    display: flex;
+    margin-top: 144px;
+	}
 	.div___container___gallerytext {
     height: 100%;
     width: 60%;
