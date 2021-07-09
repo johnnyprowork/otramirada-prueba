@@ -446,18 +446,21 @@ button.learn-more.change5.active{
 display: absolute;
 	height: 500px;
 	width: 100%;
+	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
 }
 
 .ajust___hover2{
 display: absolute;
 	height: 300px;
 	width: 100%;
+	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
 }
 
 .ajust___hover3{
 display: absolute;
 	height: 360px;
 	width: 100%;
+	box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
 }
 
 .gallery__img{
@@ -469,6 +472,7 @@ display: absolute;
 	height: 500px;
 	width: 100%;
 	object-fit: cover;
+
 
 }
 
