@@ -1370,6 +1370,80 @@ padding-left: 10vw;
     width: 129%;
 	}
 }
+@media screen and (max-width: 1024px) and (max-height: 1366px){
+	.div___container___design {
+    width: 70%;
+    height: 100%;
+    margin-top: 9%;
+    margin-left: 13%;
+    font-size: 143px;
+    overflow: hidden;
+	}
+	.div___container___design__im1 {
+    position: absolute;
+    z-index: -1;
+    width: 269px;
+    margin-left: 557px;
+    margin-top: 35px;
+	}
+	.div___container___banner {
+    width: 101%;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    margin-top: 2vh;
+	}
+	.position__buttons {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 10px;
+	}
+
+	button.learn-more {
+    font-weight: 400;
+    color: #D50780;
+    padding: 1em 1.5em;
+    background: #FCEA21;
+    border: 2px solid #D50780;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    margin-bottom: 30px;
+    margin-right: 35px;
+    margin-top: 150px;
+    font-family: 'Poppins';
+    color: #D50780;
+    font-size: 18px;
+	}
+	.div___container___categories {
+    display: flex;
+    margin-top: 341px;
+	}
+	.mundoweb__black {
+    background: #211F20;
+    width: 90%;
+    padding-bottom: 19px;
+    position: absolute;
+    margin-top: 8vh;
+    margin-left: 10%;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
+	}
+
+	.acerca__pink {
+    display: flex;
+    background: #D50780;
+    width: 90%;
+    padding-bottom: 14px;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 10%;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 61%);
+	}
+}
 
 @media screen and (max-width: 428px){
 	.nav___a___img {
